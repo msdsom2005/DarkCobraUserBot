@@ -7,8 +7,8 @@ from ..utils import admin_cmd, sudo_cmd, edit_or_reply
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
 
 
-@borg.on(admin_cmd(pattern=f"pingy$", outgoing=True))
-@borg.on(sudo_cmd(pattern=f"pingy$", allow_sudo=True))
+@borg.on(admin_cmd(pattern=f"ping$", outgoing=True))
+@borg.on(sudo_cmd(pattern=f"ping$", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -74,7 +74,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "ping": "__**PLUGIN NAME :** King__\
-    \n\n📌** CMD ★** `.pingy`\
+    \n\n📌** CMD ★** `.ping`\
     \n**USAGE   ★  **A kind of ping with extra animation\
     \n\n📌** CMD ★** `.king`\
     \n**USAGE   ★  **Shows you the ping speed of server"
