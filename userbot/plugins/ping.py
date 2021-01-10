@@ -35,14 +35,14 @@ def get_readable_time(seconds: int) -> str:
 @borg.on(admin_cmd(pattern="ping", outgoing=True))
 @borg.on(sudo_cmd(pattern="ping", allow_sudo=True))
 async def _(event):
-    sppidy = await edit_or_reply(event, "`Pong !`")
+    sppidy = await edit_or_reply(event, "`📊 Calculating my ping 🔍`")
     if event.fwd_from:
         return
     start = datetime.now()
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - Lastupdate))
-    await sppidy.edit(f"**✅ My current ping👇**\n ➲ `{ms}` \n ➲ `{uptime}`")
+    await sppidy.edit(f"**✅ My current ping👇**\n\n ➲ `{ms}` \n ➲ `{uptime}`")
 
 
 @borg.on(admin_cmd(pattern="pong", outgoing=True))
@@ -53,7 +53,7 @@ async def _(event):
     start = datetime.now()
     end = datetime.now()
     ms = (end - start).microseconds / 1000 * 2
-    await edit_or_reply(event, f"Ping! 🎾 {ms} ..")
+    await edit_or_reply(event, f"My current Ping 🎾 {ms} 🤍")
 
 
 CMD_HELP.update(
