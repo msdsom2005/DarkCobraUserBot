@@ -1,6 +1,6 @@
 {
-  "name": "𝔻𝔸ℝ𝕂 ℂ𝕆𝔹ℝ𝔸",
-  "description": "The best and most awaited userbot made by hellboi_atul and modified by Jarvis userbot's owner(@Sppidy) Made with ❤ For Support Join @Dark_cobra_support ",
+  "name": "𝔻𝔸ℝ𝕂 ℂ𝕆𝔹ℝ𝔸 Remix",
+  "description": "The best and most awaited userbot made by DARK-COBRA and modified by Janindu. Made with ❤ For Support Join @Infinity_BOTs",
   "logo": "https://telegra.ph/file/00f47c54ceda3944dc47c.jpg ",
     "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/DARK-COBRA/DARKCOBRA/",
-  "website": "https://github.com/DARK-COBRA/DARKCOBRA/",
-  "success_url": "https://t.me/Dark_cobra_support",
+  "repository": "https://github.com/ImJanindu/DarkCobraUserBot",
+  "website": "https://github.com/ImJanindu/DarkCobraUserBot",
+  "success_url": "https://t.me/Infinity_BOTs",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
@@ -44,8 +44,8 @@
       "required": true
     },
     "ALIVE_PHOTTO": {
-      "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
+      "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command. Get it from @ImgUpload_bot.",
+      "value": "",
       "required": true
     },
     "DEFAULT_BIO": {
@@ -54,8 +54,8 @@
       "required": false
     },
     "PMPERMIT_PIC": {
-      "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/ad8430d78a8e1adb3d8ea.jpg",
+      "description": "put here any telegraph media link for pmpermit custom pic. Get it from @ImgUpload_bot.",
+      "value": "",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
@@ -83,7 +83,7 @@
       "required": false
     },
     "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
+      "description": "Needed for Lydia AI. Get your API from https://coffeehouse.intellivoid.net/",
       "value": "",
       "required": false
     },
@@ -118,7 +118,7 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
+      "description": "Get this value by running https://repl.it/@Danish00/DarkCobra#main.py",
       "value": "",
       "required": true
     },
