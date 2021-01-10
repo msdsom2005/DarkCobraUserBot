@@ -28,13 +28,13 @@ DEFAULTUSER = (
 )
 CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n THIS IS ILLEGAL AND REGARDED AS A CRIME" 
 
-USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot⭕️.`\n**Now GTFO, i'm busy**"
-USER_BOT_NO_WARN = ("`Hello, This Is An Antispam Userbot Service⚠️.You have found your way here to my sweet master's ,`"
-                   f"{DEFAULTUSER}'s inbox. He is little busy right now..so please follow the below guidelines so that he can decide the reason, why are you here and approve you\n"
+USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.`\n**Now GTFO, I'm busy**"
+USER_BOT_NO_WARN = ("`Hello, This Is An Antispam Userbot Service. You have found your way here to my sweet master's ,`"
+                   f"{DEFAULTUSER}'s inbox. He is little busy right now... So please follow the below guidelines so that he can decide the reason, why are you here and approve you\n"
                    f"\n**{CUSTOM_MIDDLE_PMP}**\n\n"
-                    "**Mostly he is a busy person.. And told me to take care of his inbox..🤖**\n\n"
-                    "❤️Please Register Your Request/query!❤️\nSend `/start` To Register Your Request!! 🔥\n"
-                    "**Okay now please send a** 🔥 `/start` 🔥 **To Start A Valid Conversation with him..!!❤**")
+                    "**Mostly he is a busy person... And told me to take care of his inbox 🤖**\n\n"
+                    "❤️ Please Register Your Request ❤️\nSend `/start` To Register Your Request.\n"
+                    "**Okay now please send a** `/start` **To Start A Valid Conversation with him ❤**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
@@ -233,8 +233,8 @@ async def hehehe(event):
     chat = await event.get_chat()
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
-            pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know..**")
+            pmpermit_sql.approve(chat.id, "**My Boss Is Best ❤️**")
+            await borg.send_message(chat, "**Boss Meet My Creator he made me... He is the best you know..**")
             
             
             
