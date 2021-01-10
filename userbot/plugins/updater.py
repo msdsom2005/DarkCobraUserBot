@@ -59,7 +59,7 @@ async def upstream(ups):
         return
     except InvalidGitRepositoryError as error:
         if conf != "now":
-            await ups.edit(f"**Hey ßoss!!!**😁😁\n__To get the Latest update of__ \n© Infinity BOTs\n\n do |`.update now`| 😎😎 ")
+            await ups.edit(f"**Hey ßoss 🤍**\n\n⭐ To get the Latest update of Cobra UserBot\nDo `.update now` 😉")
             return
         repo = Repo.init()
         origin = repo.create_remote('upstream', off_repo)
@@ -107,9 +107,9 @@ async def upstream(ups):
         await ups.respond("do `.update now` to update")
         return
     if force_update:
-        await ups.edit('Force-Syncing to latest stable userbot code, please wait master...😅😅')
+        await ups.edit('Force Syncing to latest stable userbot code, please wait master 😇')
     else:
-        await ups.edit('`Updating userbot, please wait....you arey best boss🤗😇')
+        await ups.edit('`Updating userbot, please wait... you are the best boss ❤')
     if HEROKU_API_KEY is not None:
         import heroku3
         heroku = heroku3.from_key(HEROKU_API_KEY)
@@ -138,7 +138,7 @@ async def upstream(ups):
             remote.set_url(heroku_git_url)
         else:
             remote = repo.create_remote("heroku", heroku_git_url)
-            await ups.edit("`⬛⬛⬛⬛ \n⬛✳️✳️⬛ \n⬛✳️✳️⬛ \n⬛⬛⬛⬛`")
+            await ups.edit("`⬛⬛⬛⬛ \n⬛🟣🟣⬛ \n⬛🟣🟣⬛ \n⬛⬛⬛⬛`")
             await asyncio.sleep(1)
             await ups.edit("`⬛⬛⬛⬛ \n⬛🔴🔴⬛ \n⬛🔴🔴⬛ \n⬛⬛⬛⬛`")
             await asyncio.sleep(1)
@@ -146,9 +146,9 @@ async def upstream(ups):
             await asyncio.sleep(1)
             await ups.edit("`⬛⬛⬛⬛ \n⬛🔵🔵⬛ \n⬛🔵🔵⬛ \n⬛⬛⬛⬛`")
             await asyncio.sleep(1)
-            await ups.edit("`⬛⬛⬛⬛ \n⬛❇️❇️⬛ \n⬛❇️❇️⬛ \n⬛⬛⬛⬛`")
+            await ups.edit("`⬛⬛⬛⬛ \n⬛🟢🟢⬛ \n⬛🟢🟢⬛ \n⬛⬛⬛⬛`")
             await asyncio.sleep(1)
-        await ups.edit("`⚜️Updating DarkCobra⚜️\n\nYou are the 👑KING👑 Boss!!\n\nPlease wait 5min😁😁\nThen try .alive to check` 😎😎\n\n**Powered by :-**\n© Infinity BOTs ")
+        await ups.edit("Updating Dark Cobra 🤍\n\nYou are the best boss 😇\n\nPlease wait 5 minuts 😁\nThen try `.alive` to check.\n\n**Powered by @Infinity BOTs 🇱🇰")
         remote.push(refspec="HEAD:refs/heads/master", force=True)
     else:
         try:
@@ -157,7 +157,7 @@ async def upstream(ups):
             repo.git.reset("--hard", "FETCH_HEAD")
         reqs_upgrade = await update_requirements()
         await ups.edit('`Successfully Updated!\n'
-                       'Bot is restarting... Wait for a second!`')
+                       'Bot is restarting... Wait for a second 😉`')
         # Spin a new instance of bot
         args = [sys.executable, "-m", "userbot"]
         execle(sys.executable, *args, environ)
