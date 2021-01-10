@@ -16,7 +16,7 @@ async def _(event):
     animation_interval = 0.2
     animation_ttl = range(0, 26)
     await edit_or_reply(event, "ping....")
-    animation_chars = ["My 🇵 🇮 🇳 🇬  Is : Calculating...",
+    animation_chars = ["My Ping Is Calculating...",
     ]
     for i in animation_ttl:
         await asyncio.sleep(animation_interval)
@@ -24,8 +24,7 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"**█▀█ █▀█ █▄░█ █▀▀ █ \n█▀▀ █▄█ █░▀█ █▄█ ▄**\n ➲ `{ms}` \n ➲ `{uptime}`,My 🇵 🇮 🇳 🇬  Is : {} ms".format(
-            ms
+        f"**╔═══╗╔══╗╔═╗─╔╗╔═══╗\n║╔═╗║╚╣─╝║║╚╗║║║╔═╗║\n║╚═╝║─║║─║╔╗╚╝║║║─╚╝\n║╔══╝─║║─║║╚╗║║║║╔═╗\n║║───╔╣─╗║║─║║║║╚╩═║\n╚╝───╚══╝╚╝─╚═╝╚═══╝**\n ➲ `{ms}` \n ➲ `{uptime}`",
         )
     )
 
