@@ -1,1 +1,1 @@
-# DARK COBRA USERBOT REMIX by Janindu 🇱🇰
+# DARK COBRA USERBOT REMIX by [Infinity JE 🇱🇰](https://t.me/InfinityJE)
