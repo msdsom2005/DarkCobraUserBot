@@ -32,8 +32,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-@userbot.on(admin_cmd(pattern="ping", outgoing=True))
-@userbot.on(sudo_cmd(pattern="ping", allow_sudo=True))
+@borg.on(admin_cmd(pattern="ping", outgoing=True))
+@borg.on(sudo_cmd(pattern="ping", allow_sudo=True))
 async def _(event):
     sppidy = await edit_or_reply(event, "`Pong !`")
     if event.fwd_from:
@@ -45,8 +45,8 @@ async def _(event):
     await sppidy.edit(f"**Pong !!**\n ➲ `{ms}` \n ➲ `{uptime}`")
 
 
-@userbot.on(admin_cmd(pattern="pong", outgoing=True))
-@userbot.on(sudo_cmd(pattern="pong", allow_sudo=True))
+@borg.on(admin_cmd(pattern="pong", outgoing=True))
+@borg.on(sudo_cmd(pattern="pong", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
