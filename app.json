@@ -29,7 +29,7 @@
     },
 
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @hellboi_atul.",
+      "description": "Fill your Full name or Username like @username.",
       "value": "",
       "required": true
     },
@@ -182,8 +182,8 @@
       "required": true
     },
     "EMOJI_TO_DISPLAY_IN_HELP": {
-      "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
-      "value": "📨",
+      "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!",
+      "value": "✅",
       "required": true
     },
     "SUDO_USERS": {
@@ -193,7 +193,7 @@
     }, 
     "TZ": {
       "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
+      "value": "Asia/Colombo",
       "required": false
     },
     "REDIRECTCHANNEL": {
