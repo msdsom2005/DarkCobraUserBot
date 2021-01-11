@@ -46,7 +46,7 @@ async def set_not_afk(event):
     if ".afk" not in current_message and "yes" in USER_AFK:  # pylint:disable=E0602
         shite = await borg.send_message(
             event.chat_id,
-            "__Back alive!__\n**No Longer afk.**\n `Was afk for:``"
+            "**Back alive!\nNo Longer afk.**\n\n`Was afk for:``"
             + total_afk_time
             + "`",
         )
@@ -54,7 +54,7 @@ async def set_not_afk(event):
             await borg.send_message(  # pylint:disable=E0602
                 Config.PRIVATE_GROUP_BOT_API_ID,  # pylint:disable=E0602
                 "#AFKFALSE \nSet AFK mode to False\n"
-                + "__Back alive!__\n**No Longer afk.**\n `Was afk for:``"
+                + "**Back alive!\nNo Longer afk.**\n\n`Was afk for:``"
                 + total_afk_time
                 + "`",
             )
@@ -126,10 +126,10 @@ async def on_afk(event):
         #           afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = (
-            f"__ Master Been #AFK since__ `{total_afk_time}`"
-            + f"\n\n_\n**REASON**: {reason}"
+            f"**Master Been AFK since**`{total_afk_time}`"
+            + f"\n\n**REASON**: {reason}"
             if reason
-            else f"**Hey!!**\n`Master is  #AFK`\n\n__Since__>>> {total_afk_time}"
+            else f"**Hey!**\n`Master is AFK`\n\n__Since__ >>> {total_afk_time}"
         )
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(2)
@@ -164,7 +164,7 @@ async def _(event):
         USER_AFK = f"yes: {reason}"  # pylint:disable=E0602
         if reason:
             await borg.send_message(
-                event.chat_id, f"**I shall be Going afk!**\n __Reason >>> {reason}__"
+                event.chat_id, f"**I shall be Going afk!**\n__Reason__ >>> {reason}"
             )
         else:
             await borg.send_message(event.chat_id, f"**I am Going afk!**")
@@ -182,7 +182,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "afk": ".afk (reason)"
-        "\nUsage mention u as afk when someone tag or reply to any of ur msg or dm."
+        "\nUsage mention you as afk when someone tag or reply to any of ur msg or dm."
     }
 )
 
