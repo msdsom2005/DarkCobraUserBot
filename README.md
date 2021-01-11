@@ -13,7 +13,7 @@
 <p align="center"><a href="https://t.me/Infinity_Bots"><img src="https://telegra.ph/file/3c577341c45ea55a790b5.jpg" width="400"></a></p> 
 
 
-### Here is the Telegram Dark Cobra Remix Userbot. A Remix Of Dark Cobra Userbot on github.. Credits To Their Owners.
+### Here is the Telegram Dark Cobra Remix Userbot. A Remix Of Dark Cobra Userbot on github. Credits To Their Owners.
 
 # 😍 Credits
 ### Cloned from [Dark Cobra Userbot](github.com/dark-cobra/dakcobra). Full credits to Friday Developers. 
@@ -122,7 +122,7 @@ If you Dont like this send ```.set var PM_DATA DISABLE```
 
 # 
 <details>
-<summary>-MORE INFO HERE -</summary>
+<summary>👉 MORE INFO HERE 👈</summary>
 
 # String Session (Hard Way)
 
@@ -144,7 +144,7 @@ pip install -r requirements.txt
 python3 -m userbot
 ```
 
-# An example local_config.py file could be:
+## An example local_config.py file could be:
 ```
 Not All of the variables are mandatory
 The Userbot should work by setting only the first two variables
@@ -155,7 +155,7 @@ APP_ID = 6543
 API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
 
 ```
-# Mandatory Vars
+## Mandatory Vars
 ```
 [+] Only two of the environment variables are mandatory.
 
@@ -164,7 +164,7 @@ API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
     [-] APP_ID:   You can get this value from https://my.telegram.org
     [-] API_HASH :   You can get this value from https://my.telegram.org
     
-[+] The virtualUserbot will not work without setting the mandatory vars.
+[+] The Userbot will not work without setting the mandatory vars.
 ```
 
 # Licence
@@ -208,4 +208,4 @@ All the plugins are reconfigured for for virtualuserbot. So if you have any erro
 
 ## ❤️ Made possible by [Dark Cobra Project](https://github.com/DARK-COBRA) and many other opensource projects ❤️
 
-### 😍 Project by [Infinity_Bots](https://t.me/Infinity_Bots)  😍
+### 😍 Project by [Infinity Bots](https://t.me/Infinity_Bots)
