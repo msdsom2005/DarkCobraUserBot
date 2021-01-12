@@ -31,12 +31,12 @@ file2 = "https://telegra.ph/file/3c577341c45ea55a790b5.jpg"
 """ =======================CONSTANTS====================== """
 pm_caption = "**DARK COBRA IS ALIVE**\n\n"
 pm_caption += "**Yes Master, I am Alive and Systems are Working Perfectly as It Should be...**\n\n"
-pm_caption += "✘ About My System ✘\n\n"
-pm_caption += "✅ **Telethon Version** ➣ 1.17.5\n"
-pm_caption += "✅ **Support Channel** ➣ [Join Here](https://t.me/Infinity_BOTs)\n"
-pm_caption += "✅ **License** ➣ [Infinity JE](https://github.com/ImJanindu)\n"
-pm_caption += "✅ **Copyright By** ➣ [Dark Cobra Remix](https://github.com/ImJanindu/DarkCobraUserBot)\n\n"
-pm_caption += f"✅ **My Master** ➣ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+pm_caption += "**✅ About My System ✅**\n\n"
+pm_caption += "✘ **Telethon Version** **: 1.17.5**\n"
+pm_caption += "✘ **Support Channel** **: [Join Here](https://t.me/Infinity_BOTs)**\n"
+pm_caption += "✘ **License** **: [Infinity JE](https://github.com/ImJanindu)**\n"
+pm_caption += "✘ **Copyright By** **: [Dark Cobra Remix](https://github.com/ImJanindu/DarkCobraUserBot)**\n"
+pm_caption += f"✘ **My Master** **: [{DEFAULTUSER}](tg://user?id={ghanti})**\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
