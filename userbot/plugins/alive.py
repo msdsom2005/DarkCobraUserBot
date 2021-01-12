@@ -29,14 +29,14 @@ edit_time = 5
 file1 = "https://telegra.ph/file/6aa39732748ed7c319943.jpg"
 file2 = "https://telegra.ph/file/3c577341c45ea55a790b5.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = "** 𝙳𝙰𝚁𝙺 𝙲𝙾𝙱𝚁𝙰 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴**\n\n"
-pm_caption += "**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n"
+pm_caption = "**DARK COBRA IS ALIVE**\n\n"
+pm_caption += "**Yes Master, I am Alive and Systems are Working Perfectly as It Should be...**\n\n"
 pm_caption += "✘ About My System ✘\n\n"
-pm_caption += "➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ 1.17.5\n"
-pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Infinity_BOTs)\n"
-pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝚃𝙴𝙰𝙼 JE](https://github.com/ImJanindu)\n"
-pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝙳𝙰𝚁𝙺-𝙲𝙾𝙱𝚁𝙰-REMIX](https://github.com/ImJanindu/DarkCobraUserBot)\n\n"
-pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+pm_caption += "✅ **Telethon Version** ➣ 1.17.5\n"
+pm_caption += "✅ **Support Channel** ➣ [Join Here](https://t.me/Infinity_BOTs)\n"
+pm_caption += "✅ **License** ➣ [Infinity JE](https://github.com/ImJanindu)\n"
+pm_caption += "✅ **Copyright By** ➣ [Dark Cobra Remix](https://github.com/ImJanindu/DarkCobraUserBot)\n\n"
+pm_caption += f"✅ **My Master** ➣ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
