@@ -54,7 +54,7 @@ This is the way thar your userbot connects with you. Need an AppID ApiHash and a
 
 ## 3)   Heroku API
 
-Create a account on [Heroku](dashboad.heroku.com) first. Then goto settings scroll to bottom. Reaveal API and get api
+Create a account on [Heroku](https://www.dashboad.heroku.com) first. Then goto settings scroll to bottom. Reaveal API and get api
 
 ## 4)   Plugin Channel and Private Group ID
 
