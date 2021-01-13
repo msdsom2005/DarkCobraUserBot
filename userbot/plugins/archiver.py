@@ -19,7 +19,7 @@ from hachoir.parser import createParser
 from telethon.tl.types import DocumentAttributeVideo
 
 from userbot import CMD_HELP
-from userbot import Config as Var
+from userbot import Var
 from ..utils import admin_cmd, progress
 
 thumb_image_path = Var.TEMP_DOWNLOAD_DIRECTORY + "/thumb_image.jpg"
