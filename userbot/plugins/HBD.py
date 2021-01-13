@@ -30,7 +30,7 @@ async def _(event):
               "**Happy 😊 birthday 🎂 to someone 👤 who 😂 is smart, 👩 gorgeous, 😍 funny 😄 and 👏 reminds me 😭 a 👌 lot of 💦 myself… from 👉 one 😤 fabulous chick 🐣 to another !**",
               "[.](http://www.handletheheat.com/wp-content/uploads/2015/03/Best-Birthday-Cake-with-milk-chocolate-buttercream-SQUARE.jpg)",
               "[.](http://i.pinimg.com/originals/49/d2/e3/49d2e318a2705cbd300e21023392ff6f.jpg)",
-              "Here is also 🎁Gifts🎁 from me👨.",
+              "**Here is also 🎁Gifts🎁 from me👨.**",
               "[.](http://5.imimg.com/data5/KE/IK/MY-15644577/antique-gold-gift-box-luxury-rigid-box02-250x250.jpg)",
               "[.](http://i.pinimg.com/originals/10/b8/fb/10b8fb15270d8db1f6ff967e7026d2de.gif)",
               "[.](http://www.lovethispic.com/uploaded_images/367867-Starry-Happy-Birthday-Gif.gif)",
